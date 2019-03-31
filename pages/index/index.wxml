@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <CustomNav title="Home" showProfile="{{true}}" profilePic="{{userInfo.avatarUrl}}" />
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
